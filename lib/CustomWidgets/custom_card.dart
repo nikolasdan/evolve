@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Evolve/Classes/note.dart';
-import 'package:Evolve/Views/add_note_view.dart';
+import 'package:evolve/Classes/note.dart';
+import 'package:evolve/Views/add_note_view.dart';
 
 class CustomCard extends StatelessWidget {
   final Note data;

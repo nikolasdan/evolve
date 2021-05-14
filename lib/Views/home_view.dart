@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:Evolve/Utils/db_halper.dart';
-import 'package:Evolve/Utils/theme_bloc.dart';
-import 'package:Evolve/Views/add_note_view.dart';
+import 'package:evolve/Utils/db_halper.dart';
+import 'package:evolve/Utils/theme_bloc.dart';
+import 'package:evolve/Views/add_note_view.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:share/share.dart';
 
@@ -22,7 +22,7 @@ class _HomeViewState extends State<HomeView> with RouteAware {
   @override
   void initState() {
     if (!widget.darkThemeEnabled) {
-      _themeType = 'Dark Theme';
+      _themeType = 'Light Theme';
     } else {
       _themeType = 'Dark Theme';
     }

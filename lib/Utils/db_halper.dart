@@ -1,4 +1,4 @@
-import 'package:Evolve/Classes/note.dart';
+import 'package:evolve/Classes/note.dart';
 import 'package:sqflite/sqflite.dart';
 import 'dart:async';
 import 'dart:io';
@@ -49,7 +49,7 @@ class DatabaseHelper {
     var noteMapList = await getNoteMapList();
     int count = noteMapList.length;
 
-    List<Note> noteList = List<Note>();
+    List<Note> noteList = <Note>[];
     for (int i = 0; i < count; i++) {
       Note note = Note(
           id: noteMapList[i]['ID'],

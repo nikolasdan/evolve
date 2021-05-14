@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:Evolve/Classes/note.dart';
-import 'package:Evolve/Utils/db_halper.dart';
+import 'package:evolve/Classes/note.dart';
+import 'package:evolve/Utils/db_halper.dart';
 import 'package:share/share.dart';
 
 class AddNote extends StatefulWidget {
@@ -98,13 +98,7 @@ class _AddNoteState extends State<AddNote> {
         });
   }
 
-  _showSnakbar(String msg) {
-    final snackbar = SnackBar(
-      content: Text(msg),
-      backgroundColor: Colors.brown,
-    );
-    scaffoldKey.currentState.showSnackBar(snackbar);
-  }
+  _showSnakbar(String msg) async {}
 
   bool _checkNotNull() {
     bool res;
