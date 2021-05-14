@@ -54,6 +54,7 @@ class MyApp extends StatelessWidget {
                   theme: snapshot.data ? Themes.light : Themes.dark,
                   navigatorObservers: [routeObserver],
                   home: HomeView(snapshot.data),
+                  debugShowCheckedModeBanner: false,
                 );
               }
             },
