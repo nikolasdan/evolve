@@ -29,5 +29,5 @@ by everybody. And it makes your life easier.
 
 
 
-# This project is made for FILS Competition
+# This project was made for FILS Competition
 # With love, Codevengers team!
